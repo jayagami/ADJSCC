@@ -10,6 +10,7 @@ from dataset import dataset_cifar10
 import os
 import json
 
+os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 
 
